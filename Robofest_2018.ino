@@ -781,9 +781,9 @@ void unload(){
 
 //Servo
 void closeArm() {
-    serl.write(10, sers, true);
+    serl.write(35, sers, true);
     serl.stop();
-    serr.write(180, sers, true);
+    serr.write(170, sers, true);
     serr.stop();
 
 }
